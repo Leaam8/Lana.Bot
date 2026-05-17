@@ -27,7 +27,7 @@ export const botConfig = {
         // Text users will see (example: "Playing /help | Titan Bot").
         name: "LOVE MY COMMUNITY ❤️",
         // Activity type number (0 = Playing).
-        type: 1, 
+        type: 2, 
       },
     ],
   },
@@ -88,50 +88,50 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
-      secondary: "#2F3136", 
+      primary: "#42eaff", 
+      secondary: "#74efff", 
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287", 
-      error: "#ED4245", 
-      warning: "#FEE75C", 
-      info: "#3498DB", 
+      success: "#7DD3FC",
+      error: "#2563EB",
+      warning: "#60A5FA",
+      info: "#3B82F6",
 
       // Neutral utility colors.
-      light: "#FFFFFF",
-      dark: "#202225",
-      gray: "#99AAB5",
+      light: "#EFF6FF",
+      dark: "#0F172A",
+      gray: "#93C5FD",
 
       // Discord-style palette shortcuts.
-      blurple: "#5865F2",
-      green: "#57F287",
-      yellow: "#FEE75C",
-      fuchsia: "#EB459E",
-      red: "#ED4245",
-      black: "#000000",
+      blurple: "#3B82F6",
+      green: "#7DD3FC",
+      yellow: "#60A5FA",
+      fuchsia: "#38BDF8",
+      red: "#2563EB",
+      black: "#020617",
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
-      },
-      ticket: {
-        open: "#57F287",
-        claimed: "#FAA61A",
-        closed: "#ED4245",
-        pending: "#99AAB5",
-      },
-      economy: "#F1C40F",
-      birthday: "#E91E63",
-      moderation: "#9B59B6",
+      active: "#7DD3FC",
+      ended: "#2563EB",
+},
+ticket: {
+  open: "#7DD3FC",
+  claimed: "#38BDF8",
+  closed: "#2563EB",
+  pending: "#93C5FD",
+},
+economy: "#60A5FA",
+birthday: "#0EA5E9",
+moderation: "#1D4ED8",
 
-      // Ticket priority color mapping.
-      priority: {
-        none: "#95A5A6",
-        low: "#3498db",
-        medium: "#2ecc71",
-        high: "#f1c40f",
-        urgent: "#e74c3c",
+// Ticket priority color mapping.
+priority: {
+  none: "#BFDBFE",
+  low: "#7DD3FC",
+  medium: "#38BDF8",
+  high: "#3B82F6",
+  urgent: "#1D4ED8",
       },
     },
     footer: {
